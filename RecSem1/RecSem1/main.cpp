@@ -134,8 +134,8 @@ int main() {
 		fscanf(f, "%s", buffer);
 		vpDoc[i].den = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 		strcpy(vpDoc[i].den, buffer);
-		fscanf(f, "%f", vpDoc[i].pret);
-		fscanf(f, "%f", vpDoc[i].cant);
+		fscanf(f, "%f", &vpDoc[i].pret);
+		fscanf(f, "%f", &vpDoc[i].cant);
 	}
 
 	int nr;
