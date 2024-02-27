@@ -154,7 +154,7 @@ int main() {
 		denumiri[i] = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 		strcpy(denumiri[i], buffer2);
 		fscanf(f, "%f", &preturi[i]);
-		fscanf(f, "%f", cantitate[i]);
+		fscanf(f, "%f", &cantitate[i]);
 	}
 
 	float** mat = (float**)malloc(nr * sizeof(float*));
