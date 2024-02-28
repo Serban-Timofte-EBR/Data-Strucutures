@@ -1,3 +1,0 @@
-﻿  main.cpp
-\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem1\RecSem1\main.cpp(157,13): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double'
-  RecSem1.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\RecSem1\ARM64\Debug\RecSem1.exe
