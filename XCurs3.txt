@@ -1,0 +1,110 @@
+LISTA SIMPLA DUBLA:
+    
+    - lista simpla + pointer de legatura prev
+    - !!! de testa cand in structura stocata am un produs* p pentru ca este mai avantaj la memorie si copiere
+
+    typedef strucut {
+        int* cod;
+        //others
+    } produsl
+
+    typedef strucut {
+        produs* inf;
+        struct nodels* next, *prev
+    }  nodels;
+
+    //alocare
+    nou->inf = (produs*)malloc(sizeof(produs));
+    nou->inf->cod = (int*)malloc(sizeof(int));
+    *(nou->inf->cod) = *(p->cod);
+
+    //la adaugarea nodului nou -  adaptare lista simpla
+    temp->next = nou;
+    nou->prev = temp;
+
+    //sau, mai eficient -- nodLs** coada in signatura functiei;
+    *coada->next = nou;
+    nou->prev = *coada;
+    *coada = nou;
+
+    //traversare - primim coada
+    temp = temp->prev;
+
+    //stergere de la jumatate
+
+    nodeLs* urmator = temp->next;
+    nodeLs* anterior = temp->prev;
+    ultimul->next = anterior;
+    anterior->prev = ultimul;
+
+    - Logica trebuie sa cuprinda toate cazurile ( la stergere si daca este primul element, si la mijloc si ultimul)
+
+LISTA DUBLA CIRCULARA
+
+    - un lant 
+    - nu mai avem pointeri catre NULL
+
+    //CREARE
+
+    if(cap == NULL) {
+        nou->next = nou;
+        nou->prev = nou;
+        *cap = nou;
+        *coada = nou;
+    }
+    
+    (*coada)->next = nou;
+    nou->next  = prev;
+    nou->prev = *coada;
+    
+STIVA:
+
+    - O lista simpla
+    - Adaugare si extrage pe principiul LIFO    (push, pop la varful stivei)
+    - Ex: Un teanc de farfurii si un teanc de farfurii la spalat
+    - Push in stiva = inserarea la inceputul listei ( capul listei este varful stivei )
+    - VARFUL ESTE CAPUL LISTEI SI MEREU MERGE IN JOS
+
+COADA: 
+
+    - Acces FIFO
+    - Lista dubla 
+    - Ex: o coada de persoane la ghiseu
+    - Inserarea se face la finalul listei si stergerea de la inceput
+
+UTILIZAREA STIVA vs COADA:
+
+    - STIVA: Algoritmi recursivi, Traversarea grafurilor, Conversatii intre baze, Operatia Undo, Navigare inainte inapoi, Web history, Mesaje primite, Emailuri, Galerie de poze, 
+    - COADA: Cozi de prioritati, Sisteme de operare, Pachete de date in telecomunicatii, Comunicarea intre app windows, Buffere intre procese
+        !!!! Sa se implementeze o coada de prioritati => se implementeaza structura HEAP
+    
+IMPLEMENTARE:
+
+    STIVA:
+        - struct carte
+        typedef struct {
+            carte inf;
+            struct nodeLs* next;
+        } nodeLs;
+
+        //push  nodeLs** varf
+        
+        1) alocare nodeLs
+        2) inserare
+
+        if(*vars == NULL) {
+            *varf = nou;
+        }
+
+        else {  //inserare la inceputul listei
+            nou->next = *varf;
+            *varf = nou;
+        }
+
+        //pop   return -1 daca este goala si nu pot extrage
+            //conversia presupune scoaterea din stiva => stergere din stiva
+        
+        1) Salvez intr un pointer carte* val prin deepcopy
+        2) Parcurgerea
+        nodLs* temp = *varf;
+        *varf = (*varf)->next;
