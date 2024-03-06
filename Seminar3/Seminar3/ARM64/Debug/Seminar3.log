@@ -1,0 +1,7 @@
+﻿  functii.c
+  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar3\Seminar3\main.c(39,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar3\Seminar3\main.c(39,9): message : consider using '%zd' in the format string
+  Generating Code...
+main.obj : error LNK2005: main already defined in functii.obj
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar3\ARM64\Debug\Seminar3.exe : fatal error LNK1169: one or more multiply defined symbols found
