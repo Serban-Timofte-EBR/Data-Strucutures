@@ -1,0 +1,5 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\FreeCodeCamp - 3\FreeCodeCamp - 3\main.c(47,14): warning C4133: '=': incompatible types - from 'nodeD *' to 'node *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\FreeCodeCamp - 3\FreeCodeCamp - 3\main.c(48,17): warning C4133: '=': incompatible types - from 'nodeD *' to 'node *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\FreeCodeCamp - 3\FreeCodeCamp - 3\main.c(65,8): warning C4133: '=': incompatible types - from 'node *' to 'nodeD *'
+  FreeCodeCamp - 3.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\FreeCodeCamp - 3\ARM64\Debug\FreeCodeCamp - 3.exe
