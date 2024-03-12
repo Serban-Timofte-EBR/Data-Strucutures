@@ -1,0 +1,40 @@
+STIVA:
+    - pe structura unei liste simple, se face la head si stergerea tot la head
+    - se recomanda 
+        void push(nodStiva** head, carte c); 
+        - pentru a returna void mereu
+    - int pop(nodStiva** varfa, carte* val);
+        pop(&varf, &val);
+        - salvez informatia utila intr-un val (adica intr-o carte)
+
+    !!!!
+    Nu se face shallow copy, pentru ca in val este facut deepcopy si stiva de val sunt independente
+    void conversieStivaVector(nodStiva** varf, carte* vect, int* nr)
+    {
+        carte val;
+        while (pop(varf, &val) == 0) //atat timp cat se extrage cu succes din stiva se insereaza in vector
+        {
+            vect[*nr] = val;
+            (*nr)++;
+        }
+    }
+    !!!! TOATE OPERATIILE TREBUIE FACUTE CU POP SI PUSH PENTRU A FI STIVA
+
+    --- 
+    Operatii cu stiva in alta forma inseamna pop din stiva si adaugare in noua structura
+    ---
+
+COADA:
+    - mereu se lucreaza cu 2 pointeri ultim si prim - mereu se testeaza amandoi
+
+LISTA DE LISTE:
+    - LISTA SIMPLA DE LISTE SIMPLE 
+        x structs: student, nodeLS, nodeLP
+        x stundeti sortati dupa medii - in listele secundare salvez informatia utila
+        x Lista principala pointeaza catre headul listei secundare pentru fiecare element din lista principala
+
+TABELA DE DISPERSIE PRIN CHAINLINK:
+    - In locul nodului de lista principla, avem un vector de pointeri la noduri la lista secundara
+    - Cautarea se face dupa codul hash (spre exemplu cod modulo 101)
+    - Inserarea se face dupa codul hash (in sublista codului hash)
+    - capul sublistei simple este tabela.vect[pozitie]
