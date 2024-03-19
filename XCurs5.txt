@@ -1,0 +1,14 @@
+TABELA DE DISPERSIE 
+    FUNCTIA HASH
+        - Tabela de dispersie este reprezentata sub forma de vector 
+            - vector de pointeri la studenti 
+            - tabela** vect 
+            - chain link => vectorul contine pointeri catre nodurile unei liste
+            - functia hash ne spune unde avem sau nu coliziune si unde inseram (module nrPrim, de regula)
+            - chain link evita costul de redimensionare a tabelei
+            - Linear probing: hash(x) = k => inserez in pozitia k 
+                              hash(y) = k => inserez pe pozitia k
+            - Quadratic probing: nu pune coliziunile una langa alta
+    
+    Key fact: La stergere, lista se disponibilizeaza, fata de stergerea dintr-un vector 
+
