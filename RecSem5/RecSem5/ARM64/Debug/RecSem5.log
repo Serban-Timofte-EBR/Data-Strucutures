@@ -1,0 +1,17 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(25,34): warning C4013: 'strlen' undefined; assuming extern returning int
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(26,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(35,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(37,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(43,11): warning C4047: '=': 'nodLS *' differs in levels of indirection from 'nodLS **'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(51,9): warning C4133: '=': incompatible types - from 'nodeLP *' to 'nodLP *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(53,14): warning C4133: '=': incompatible types - from 'nodLP *' to 'nodeLP *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(62,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(72,8): warning C4133: '=': incompatible types - from 'nodeLP *' to 'nodLP *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(81,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(91,10): warning C4133: 'initializing': incompatible types - from 'nodeLP *' to 'nodLP *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(128,21): warning C4047: 'function': 'nodLS **' differs in levels of indirection from 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(128,21): warning C4024: 'inserareLP': different types for formal and actual parameter 2
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(129,21): warning C4047: 'function': 'nodLS **' differs in levels of indirection from 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\RecSem5\main.c(129,21): warning C4024: 'inserareLP': different types for formal and actual parameter 2
+  RecSem5.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5\ARM64\Debug\RecSem5.exe
