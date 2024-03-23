@@ -1,0 +1,9 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(27,34): warning C4013: 'strlen' undefined; assuming extern returning int
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(28,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(36,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(38,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(34,10): warning C4047: 'initializing': 'nodLS *' differs in levels of indirection from 'nodLS **'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(58,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\RecSem5_2\main.c(74,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+  RecSem5_2.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\RecSem5_2\ARM64\Debug\RecSem5_2.exe
