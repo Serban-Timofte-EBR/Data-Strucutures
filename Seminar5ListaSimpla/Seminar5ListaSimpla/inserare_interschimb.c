@@ -92,4 +92,7 @@ int main() {
     cap = interschimbNoduri(cap);
     t = cap;
     while (t) {
-        printf("IBAN: %s, Titular: %s, Moneda: %s, Sold: %.2f\n", t->cb.iban, t->cb.titular, t->cb.moneda,
+        printf("IBAN: %s, Titular: %s, Moneda: %s, Sold: %.2f\n", t->cb.iban, t->cb.titular, t->cb.moneda, t->cb.sold);
+        t = t->next;
+    }
+    printf("\n");
