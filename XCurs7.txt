@@ -1,0 +1,35 @@
+HEAP = Coada de prioritati
+    - ARBORE BINAR
+        - complet => fiecare nod are 2 copii ( mai putin ultimul rand populat de la stanga la dreapta)
+        - valoarea copil este mai mica sau mai mare vs nodul parinte 
+            (la arbori binari de cautare stiu ca fiul dreapta este mai mic decat fiul stanga)
+        - maxHeap => parintii au valori mai mari decat copiii
+            - invers este minHEAP 
+        
+        - FACEM OPERATII PE VECTOR, DAR GANDIM ARBORESCENT
+        - Copiii se afla pe 2i+1 si pe 2i+2 unde i este pozitia parintelui
+
+        - Algortimul de filtrare
+            - se determina maxim dintre nodul curent si fiul stanga sau dreapta 
+            - maximum trebuie sa se afle in nodul curent 
+            - se aplica recursiv pana la un arbore valid
+        
+        - Inserarea in HEAP 
+            - inseram ca frunza 
+            - filtram iarasi vectorul ( se face de la (n-1)/2 la 0 )
+        
+        - Stergerea in HEAP
+            - prin extragerea elementului minim sau maxim 
+            - nodul radacina se schimba cu ultimul nod
+            - se elimina ultimul nod din arbore 
+            - se reordoneaza prin filtrare
+
+        Parinte(i) = [(i-1)/2]
+
+        - COZILE DE PRIORITATE 
+            - Heap care suporta inserare si extragere valori min/max 
+            
+            
+            
+            
+Citire desteapta de string cu spatii " %[^\n]"
