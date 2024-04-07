@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
@@ -81,6 +81,127 @@ IBAN* salveaza_conturi_vector(ListaDubla lista, char* currency, unsigned char* n
 	return vector;
 }
 
+ListaDubla interschimbare_adiacente(ListaDubla lista, int i) {
+	if (i < 0 || lista.prim == NULL) { return lista; }
+
+	NodLD* curr = lista.prim;
+	int pos = 0;
+	while (curr != NULL && pos < i - 1) {
+		curr = curr->next;
+		pos++;
+	}
+
+	if (curr == NULL || curr->next == NULL) { return lista; }
+
+	NodLD* nextN = curr->next;
+	NodLD* prevN = curr->prev;
+	NodLD* nextNnext = nextN->next;
+
+	// daca curr nu este primul nod
+	if (prevN != NULL) {	
+		prevN->next = nextN;
+	}
+	else {
+		lista.prim = nextN;
+	}
+	
+	nextN->prev = prevN;
+	nextN->next = curr;
+	
+	curr->prev = nextN;
+	curr->next = nextNnext;
+
+	// daca nextN nu este ultimul nod
+	if (nextNnext != NULL) {
+		nextNnext->prev = curr;
+	}
+	else {
+		lista.ultim = curr;
+	}
+
+	return lista;
+}
+
+ListaDubla interschimbare_oarecare(ListaDubla lista, int i, int j) {
+	// ordonare indexuri
+	if (i > j) {
+		int temp = i;
+		i = j;
+		j = temp;
+	}
+
+	if (lista.prim == NULL || i < 0 || j < 0 || i == j) { return lista; }
+
+	NodLD* nod_i = NULL;
+	NodLD* nod_j = NULL;
+	int pos = 1;
+
+	// parcurgerea listei
+	NodLD* curr = lista.prim;
+	while (curr != NULL) {
+		if (pos == i) { nod_i = curr; }
+		else if (pos == j) { nod_j = curr; }
+		curr = curr->next;
+		pos++;
+	}
+
+	if (nod_i == NULL || nod_j == NULL) {
+		return lista;
+	}
+
+	if (j - i == 1) { interschimbare_adiacente(lista, i); }
+	else {
+		// avem nod_i si nod_j valizi
+		NodLD* nod_i_prev = nod_i->prev;
+		NodLD* nod_i_next = nod_i->next;
+		NodLD* nod_j_prev = nod_j->prev;
+		NodLD* nod_j_next = nod_j->next;
+
+		nod_i->next = nod_j_next;
+		nod_i->prev = nod_j_prev;
+		nod_j->next = nod_i_next;
+		nod_j->prev = nod_i_prev;
+		if (nod_i_prev != NULL) nod_i_prev->next = nod_j;
+		if (nod_i_next != NULL) nod_i_next->prev = nod_j;
+		if (nod_j_prev != NULL) nod_j_prev->next = nod_i;
+		if (nod_j_next != NULL) nod_j_next->prev = nod_i;
+
+		if (i == 0) lista.prim = nod_j;
+		if (j == pos - 1) lista.ultim = nod_i;
+
+		return lista;
+	}
+}
+
+void sortare_lista(ListaDubla* lista) {
+	if (lista->prim == NULL || lista->prim->next == NULL) {
+		return;
+	}
+
+	int swapped = 1;
+
+	while (swapped) {
+		swapped = 0;
+		NodLD* current = lista->prim;
+
+		while (current != NULL && current->next != NULL) {
+			// Compar soldurile nodurilor adiacente
+			if (current->pcb->sold > current->next->pcb->sold) {
+				// TInterschimbare noduri
+				ContBancar* temp = current->pcb;
+				current->pcb = current->next->pcb;
+				current->next->pcb = temp;
+
+				swapped = 1;
+			}
+
+			// Avansăm
+			current = current->next;
+		}
+	}
+}
+
+
 int main()
 {
 	FILE* f = fopen("Conturi.txt", "r");
@@ -138,6 +259,31 @@ int main()
 	printf("\nConturi bancare in EUR:\n\n");
 	for (unsigned char i = 0; i < n; i++) {
 		printf("%s\n", conturi[i].iban);
+	}
+
+	printf("\nInternschimbare adiacente nodul 3 cu 4\n");
+	listaD = interschimbare_adiacente(listaD, 3);
+	temp = listaD.prim;
+	while (temp) {
+		printf("IBAN: %s, Titular: %s\n", temp->pcb->iban, temp->pcb->titular);
+		temp = temp->next;
+	}
+
+	printf("\nInternschimbare oarecare nodul 2 cu 5\n");
+	listaD = interschimbare_oarecare(listaD, 2, 5);
+	temp = listaD.prim;
+	while (temp) {
+		printf("IBAN: %s, Titular: %s\n", temp->pcb->iban, temp->pcb->titular);
+		temp = temp->next;
+	}
+
+	printf("\nSortarea listei\n");
+	sortare_lista(&listaD);
+	temp = listaD.prim;
+	while (temp) {
+		printf("IBAN: %s, Titular: %s, Sold: %f\n", 
+			temp->pcb->iban, temp->pcb->titular, temp->pcb->sold);
+		temp = temp->next;
 	}
 
 	//dezalocare vector de conturi
