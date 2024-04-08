@@ -1,0 +1,8 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(45,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(46,21): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(64,9): warning C4013: 'strlen' undefined; assuming extern returning int
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(68,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(91,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(98,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+  Seminar8.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\ARM64\Debug\Seminar8.exe

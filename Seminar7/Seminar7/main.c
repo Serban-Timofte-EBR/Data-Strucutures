@@ -12,6 +12,7 @@ struct ContBancar
 	float sold;
 };
 
+
 struct NodLD
 {
 	struct ContBancar *pcb;
@@ -26,6 +27,11 @@ typedef struct {
 	NodLD* prim;
 	NodLD* ultim;
 } ListaDubla;
+
+typedef struct NodLS {
+	ContBancar* pcb;
+	struct NodLS* next;
+} NodLS;
 
 ListaDubla inserare_sfarsit(ListaDubla lista, ContBancar* pcont)
 {
@@ -187,7 +193,7 @@ void sortare_lista(ListaDubla* lista) {
 		while (current != NULL && current->next != NULL) {
 			// Compar soldurile nodurilor adiacente
 			if (current->pcb->sold > current->next->pcb->sold) {
-				// TInterschimbare noduri
+				// Interschimbare noduri - de modificat cu interschimbare 
 				ContBancar* temp = current->pcb;
 				current->pcb = current->next->pcb;
 				current->next->pcb = temp;
@@ -201,6 +207,49 @@ void sortare_lista(ListaDubla* lista) {
 	}
 }
 
+
+//extragere noduri din lista dubla pentru un titular specificat
+	//ibanurile se salveaza intr-o lista simpla separata 
+
+NodLS* extrage_noduri(ListaDubla* lista, char* titular_cautat) {
+	if (lista == NULL || titular_cautat == NULL) {
+		return NULL;
+	}
+
+	NodLS* lista_simpla = NULL; 
+	NodLD* current = lista->prim; 
+
+	while (current != NULL) {
+		if (strcmp(current->pcb->titular, titular_cautat) == 0) {
+	
+			NodLS* nou = (NodLS*)malloc(sizeof(NodLS));
+			nou->pcb = current->pcb; 
+			nou->next = lista_simpla; 
+			lista_simpla = nou;
+
+			// Eliminăm nodul din lista dublă
+			if (current->prev != NULL) {
+				current->prev->next = current->next;
+			}
+			else {
+				lista->prim = current->next;
+			}
+			if (current->next != NULL) {
+				current->next->prev = current->prev;
+			}
+		
+
+			NodLD* temp = current;
+			current = current->next; 
+			free(temp); 
+		}
+		else {
+			current = current->next;
+		}
+	}
+
+	return lista_simpla; 
+}
 
 int main()
 {
@@ -285,6 +334,34 @@ int main()
 			temp->pcb->iban, temp->pcb->titular, temp->pcb->sold);
 		temp = temp->next;
 	}
+
+
+	printf("\nSeminar 8\n");
+
+	printf("Lista dubla dupa eliminare:\n");
+	NodLS* lista_extrasa = extrage_noduri(&listaD, "Radulescu Ana-Maria");
+	temp = listaD.prim;
+	while (temp) {
+		printf("IBAN: %s, Titular: %s, Sold: %f\n",
+			temp->pcb->iban, temp->pcb->titular, temp->pcb->sold);
+		temp = temp->next;
+	}
+
+	printf("Conturile extrase pentru  Radulescu Ana-Maria:\n");
+	NodLS* curent = lista_extrasa;
+	while (curent != NULL) {
+		printf("IBAN: %s, Titular: %s, Sold: %.2f\n",
+			curent->pcb->iban, curent->pcb->titular, curent->pcb->sold);
+		curent = curent->next;
+	}
+
+	while (lista_extrasa != NULL) {
+		NodLS* temp = lista_extrasa;
+		lista_extrasa = lista_extrasa->next;
+		free(temp); 
+	}
+
+
 
 	//dezalocare vector de conturi
 	free(conturi);
