@@ -1,0 +1,9 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(44,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(46,14): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(47,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(72,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(73,14): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(85,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\Lista Dubla\main.c(94,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+  Lista Dubla.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Dubla\ARM64\Debug\Lista Dubla.exe
