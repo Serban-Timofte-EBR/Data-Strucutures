@@ -14,5 +14,8 @@
 \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(162,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
 \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(167,22): warning C4133: '!=': incompatible types - from 'NodLS *' to 'NodLS *'
 \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(169,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
-\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(239,8): warning C4133: '=': incompatible types - from 'NodLS2 *' to 'NodLS2 *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(186,8): warning C4133: '=': incompatible types - from 'NodLS2 *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(183,11): warning C4133: 'initializing': incompatible types - from 'NodLS *' to 'NodLS2 *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(194,11): warning C4133: 'initializing': incompatible types - from 'NodLS2 *' to 'NodLS2 *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\Lista Simpla\main.c(261,8): warning C4133: '=': incompatible types - from 'NodLS2 *' to 'NodLS2 *'
   Lista Simpla.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Lista Simpla\ARM64\Debug\Lista Simpla.exe

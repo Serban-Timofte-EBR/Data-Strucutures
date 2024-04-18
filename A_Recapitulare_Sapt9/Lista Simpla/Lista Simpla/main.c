@@ -176,6 +176,28 @@ NodLS* stergere_cont(NodLS* prim, char* titular) {
 	return prim;
 }
 
+void dezalocareLS(NodLS* prim) {
+	NodLS* temp = prim;
+	while (temp != NULL)
+	{
+		NodLS2* aux = temp->next;
+		free(temp->cb.titular);
+		free(temp);
+		temp = aux;
+	}
+}
+
+void dezalocareLS2(NodLS2* prim) {
+	NodLS2* temp = prim;
+	while (temp != NULL)
+	{
+		NodLS2* aux = temp->next;
+		free(temp->iban);
+		free(temp);
+		temp = aux;
+	}
+}
+
 int main() {
 	NodLS* prim = NULL;
 	FILE* f = fopen("Conturi.txt", "r");
@@ -250,6 +272,11 @@ int main() {
 	prim = stergere_cont(prim, "Serban Timofte");
 	printf("\nLista simpla dupa a treia stergere:\n");
 	printare_lista_simplar(prim);
+
+	dezalocareLS(prim);
+	dezalocareLS2(primListaPopescuIulian);
+
+	free(conturiEURO);
 
 	return 0;
 }
