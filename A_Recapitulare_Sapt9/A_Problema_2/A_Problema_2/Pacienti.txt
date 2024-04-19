@@ -1,0 +1,36 @@
+Popescu
+1020725394431
+31
+Tulburare de somn
+Mihailescu
+2990619394431
+45
+Tensiune arteriala
+Ioanovici
+5000910394431
+19
+Gripa 1
+Ionescu
+5010910394431
+20
+Raceala sezoniera
+Popovici
+5040910394431
+20
+Picior rupt
+Ioanovici
+5100910394431
+19
+Gripa 2
+Branza
+5020910394431
+21
+Covid 19
+Ioanovici
+5000910394431
+19
+Gripa 3
+Ioanovici
+1000910394431
+19
+Gripa 4

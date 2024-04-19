@@ -1,0 +1,25 @@
+Structurile de Date:
+	Carte: Structura care va p?stra datele despre o carte.
+	Lista simpl?: Folosit? pentru a stoca c?r?i într-un anumit context, cum ar fi lista c?r?ilor împrumutate de un utilizator.
+	Lista dubl?: Poate fi folosit? pentru a men?ine o list? ordonat? de c?r?i, permitând parcurgeri în ambele direc?ii (util pentru navigarea rapid?).
+	Hash Table: Folosit? pentru a indexa c?r?ile dup? un anumit criteriu, cum ar fi autorul, pentru acces rapid.
+
+Exerci?iu 1: Inserarea într-o List? Simpl?
+
+Sarcin?: Implementa?i o func?ie care insereaz? o carte la sfâr?itul unei liste simple.
+
+Exerci?iu 2: ?tergerea din List? Simpl?
+
+Sarcin?: Implementa?i o func?ie care ?terge toate apari?iile unei c?r?i cu un anumit titlu dintr-o list? simpl?.
+
+Exerci?iu 3: Inserarea într-o List? Dubl?
+
+Sarcin?: Implementa?i o func?ie care insereaz? o carte într-o list? dubl?, p?strând lista ordonat? alfabetic dup? titlu.
+
+Exerci?iu 4: Inserarea ?i C?utarea într-o Tabel? Hash
+
+Sarcin?: Implementa?i o tabel? hash unde cheia este autorul c?r?ii. Insera?i c?r?i în aceast? tabel? ?i implementa?i o func?ie de c?utare care returneaz? toate c?r?ile unui autor.
+
+Exerci?iu 5: Salvarea Listei într-un Vector
+
+Sarcin?: Copia?i toate c?r?ile din lista simpl? într-un vector, sortat dup? anul publica?iei.
