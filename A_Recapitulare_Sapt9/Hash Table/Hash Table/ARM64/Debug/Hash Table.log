@@ -1,0 +1,15 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(51,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(53,14): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(67,8): warning C4133: '=': incompatible types - from 'NodLS_Secundara *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(70,13): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS_Secundara *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(71,8): warning C4133: '=': incompatible types - from 'NodLS_Secundara *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(73,2): warning C4133: 'return': incompatible types - from 'NodLS *' to 'NodLS_Secundara *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(84,45): warning C4133: 'function': incompatible types - from 'NodLS_Secundara *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(86,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(102,24): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(111,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(118,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(130,8): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\Hash Table\main.c(199,8): warning C4133: '=': incompatible types - from 'NodLS_Secundara *' to 'NodLS_Secundara *'
+  Hash Table.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Hash Table\ARM64\Debug\Hash Table.exe
