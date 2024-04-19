@@ -106,40 +106,77 @@ NodLS* inserare_lista_simpla_secundara(NodLS* prim, char* titular, char* iban) {
 	return prim;
 }
 
-NodLS* extrage_nod(NodLD* prim, NodLD** ultim, NodLS** prim_ls, char* titular) {
-	if (prim == NULL) {
+//NodLD* extrage_nod(NodLD* prim, NodLD** ultim, NodLS** prim_ls, char* titular) {
+//	if (prim == NULL) {
+//		return prim;
+//	}
+//	else
+//	{
+//		// extrag primul nod
+//		if (strcmp(prim->cb->titluar, titular) == 0) {
+//			NodLD* temp = prim;
+//			prim = prim->next;
+//			prim->prev = NULL;
+//			*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
+//		}
+//		else
+//		{
+//			//extrag un nod din mijloc
+//			NodLD* temp = prim;
+//			while (temp->next != NULL)
+//			{
+//				if (strcmp(temp->cb->titluar, titular) == 0) {
+//					NodLD* next = temp->next;
+//					NodLD* prev = temp->prev;
+//					next->prev = prev;
+//					prev->next = next;
+//					*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
+//				}
+//				temp = temp->next;
+//			}
+//			if (strcmp(temp->cb->titluar, titular) == 0) {
+//				NodLD* prev = temp->prev;
+//				prev->next = NULL;
+//				*ultim = prev;
+//				*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
+//			}
+//		}
+//	}
+//	return prim;
+//}
+
+NodLD* extrage_nod(NodLD* prim, NodLD** ultim, NodLS** prim_ls, char* titular) {
+	if (prim == NULL)
 		return prim;
-	}
-	else
+	NodLD* temp = prim;
+	while (temp != NULL)
 	{
-		// extrag primul nod
-		if (strcmp(prim->cb->titluar, titular) == 0) {
-			NodLD* temp = prim;
-			prim = prim->next;
-			prim->prev = NULL;
-			*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
-		}
-		else
-		{
-			//extrag un nod din mijloc
-			NodLD* temp = prim;
-			while (temp->next != NULL)
-			{
-				if (strcmp(temp->cb->titluar, titular) == 0) {
-					NodLD* next = temp->next;
-					NodLD* prev = temp->prev;
-					next->prev = prev;
-					prev->next = next;
-					*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
-				}
-				temp = temp->next;
-			}
-			if (strcmp(temp->cb->titluar, titular) == 0) {
-				NodLD* prev = temp->prev;
-				prev->next = NULL;
-				*ultim = prev;
+		if (strcmp(temp->cb->titluar, titular) == 0) {
+			NodLD* deleteMe = temp;
+			if (temp == prim) {
+				prim = prim->next;
+				prim->prev = NULL;
 				*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
 			}
+			else if (temp == *ultim) {
+				NodLD* ant = (*ultim)->prev;
+				ant->next = NULL;
+				*ultim = ant;
+				*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
+			}
+			else {
+				NodLD* next = temp->next;
+				NodLD* prev = temp->prev;
+				next->prev = prev;
+				prev->next = next;
+				*prim_ls = inserare_lista_simpla_secundara(*prim_ls, titular, temp->cb->iban);
+			}
+			temp = temp->next;
+			free(deleteMe->cb->titluar);
+			free(deleteMe);
+		}
+		else {
+			temp = temp->next;
 		}
 	}
 	return prim;

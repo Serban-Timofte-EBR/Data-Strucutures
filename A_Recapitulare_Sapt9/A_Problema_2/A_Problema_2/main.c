@@ -95,12 +95,10 @@ hashT sterge_cnp_tabela(hashT tabela, char* CNP) {
 		while (temp != NULL)
 		{
 			if (strcmp(temp->pacient.cnp, CNP) == 0) {
-				//sterg primul element
 				if (prev == NULL) {
 					tabela.vector[poz] = temp->next;
 				}
-				else
-				{
+				else {
 					prev->next = temp->next;
 				}
 				NodLS* deleteMe = temp;
