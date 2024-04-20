@@ -1,9 +1,9 @@
 1000
-Gigel
-9.5
+Gigel Gigescu
+9.1
 2000
-Dorel
-9.7
+Dorel Dorelescu
+8.9
 3000
-Maricica
-9.6
+Maricica Marinescu
+8
