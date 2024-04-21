@@ -42,7 +42,7 @@ NodLD* inserare_titulari_sold(NodLD* prim, NodLD** ultim, ContBancar cont) {
 	}
 	else {
 		NodLD* temp = prim;
-		while (temp->next!= NULL && temp->cont.sold <= cont.sold) {
+		while (temp != NULL && temp->cont.sold <= cont.sold) {
 			temp = temp->next;
 		}
 		if (temp == prim) {
@@ -50,15 +50,15 @@ NodLD* inserare_titulari_sold(NodLD* prim, NodLD** ultim, ContBancar cont) {
 			prim->prev = nou;
 			prim = nou;
 		}
-		else if (temp == *ultim) {
+		else if (temp == NULL) {
 			(*ultim)->next = nou;
 			nou->prev = *ultim;
 			*ultim = nou;
 		}
 		else {
 			NodLD* ant = temp->prev;
-			nou->next = temp;
 			nou->prev = ant;
+			nou->next = temp;
 			ant->next = nou;
 			temp->prev = nou;
 		}
@@ -68,14 +68,15 @@ NodLD* inserare_titulari_sold(NodLD* prim, NodLD** ultim, ContBancar cont) {
 
 NodLD* stergere_cont(NodLD* prim, NodLD** ultim, char* titular) {
 	NodLD* temp = prim;
-	while (temp != NULL) {
+	while (temp != NULL)
+	{
 		if (strcmp(temp->cont.titular, titular) == 0) {
 			NodLD* deleteMe = temp;
 			if (temp == prim) {
 				prim = prim->next;
 				prim->prev = NULL;
 			}
-			else if (temp == NULL) {
+			else if (temp == *ultim) {
 				(*ultim) = (*ultim)->prev;
 				(*ultim)->next = NULL;
 			}
