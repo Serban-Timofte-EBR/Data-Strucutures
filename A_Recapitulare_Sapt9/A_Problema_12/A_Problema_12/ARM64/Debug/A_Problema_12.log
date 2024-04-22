@@ -1,0 +1,19 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(39,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(41,14): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(42,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(54,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(64,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(76,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(88,10): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(92,14): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(98,15): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(99,15): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(101,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(107,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(96,12): warning C4133: 'initializing': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(97,12): warning C4133: 'initializing': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(126,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(150,13): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\A_Problema_12\main.c(150,13): message : consider using '%hhd' in the format string
+  A_Problema_12.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_12\ARM64\Debug\A_Problema_12.exe

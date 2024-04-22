@@ -1,0 +1,28 @@
+Doctor Max
+21.2
+6
+Calea Victoriei
+Help Net
+10.2
+3
+Mall Baneasa
+Help Net
+30.2
+9
+Calea 13 Septembrie
+Catena
+15.5
+5
+Mihail Sebastian
+Help Net
+11.3
+6
+Mihai Bravu
+Help Net
+21.3
+4
+Calea Grivitei
+Help Net
+6.5
+3
+Strada Baltita
