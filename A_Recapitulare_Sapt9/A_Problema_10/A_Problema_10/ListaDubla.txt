@@ -1,0 +1,4 @@
+Cod: 20 	 Suma: 545.400024 	 Adresa: Banca Unirii
+Cod: 44 	 Suma: 3432.300049 	 Adresa: Banca Pipera
+Cod: 50 	 Suma: 1230.300049 	 Adresa: Banca Izvor
+Cod: 66 	 Suma: 990.299988 	 Adresa: Banca Victoriei

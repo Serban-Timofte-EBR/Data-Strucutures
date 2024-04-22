@@ -1,0 +1,17 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(40,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(42,14): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(43,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(53,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(61,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(72,10): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(76,14): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(82,15): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(83,15): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(85,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(92,9): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(80,12): warning C4133: 'initializing': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(81,12): warning C4133: 'initializing': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(108,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\A_Problema_10\main.c(118,10): warning C4133: 'initializing': incompatible types - from 'NodLD *' to 'NodLD *'
+  A_Problema_10.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_10\ARM64\Debug\A_Problema_10.exe

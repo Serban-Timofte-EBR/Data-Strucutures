@@ -1,0 +1,12 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(48,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(50,14): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(34,9): warning C4133: 'initializing': incompatible types - from 'char *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(64,8): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(89,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(107,24): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(115,11): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(120,11): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(140,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\A_Problema_11\main.c(152,10): warning C4133: 'initializing': incompatible types - from 'NodLS *' to 'NodLS *'
+  A_Problema_11.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\A_Problema_11\ARM64\Debug\A_Problema_11.exe

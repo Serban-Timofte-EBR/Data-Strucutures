@@ -1,0 +1,9 @@
+Pozitie = 0
+	Cod: 103 	 Varsta: 21 	 Medie: 4.500000 	 Nume: Andrei Popescu
+Pozitie = 6
+	Cod: 36 	 Varsta: 21 	 Medie: 2.000000 	 Nume: Gabriel Popescu
+Pozitie = 8
+	Cod: 18 	 Varsta: 20 	 Medie: 7.500000 	 Nume: Ionel Ionescu
+	Cod: 24 	 Varsta: 20 	 Medie: 9.400000 	 Nume: Vlad Ionescu
+Pozitie = 12
+	Cod: 20 	 Varsta: 19 	 Medie: 8.600000 	 Nume: Maria Marinescu

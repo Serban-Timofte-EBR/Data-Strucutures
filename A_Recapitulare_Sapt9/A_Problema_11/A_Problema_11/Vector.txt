@@ -1,0 +1,3 @@
+Cod: 18 	 Nume: Ionel Ionescu
+Cod: 24 	 Nume: Vlad Ionescu
+Cod: 20 	 Nume: Maria Marinescu

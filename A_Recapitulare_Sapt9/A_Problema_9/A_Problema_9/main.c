@@ -35,15 +35,13 @@ NodLD* inserare_ld_sfarsit(NodLD* prim, NodLD** ultim, Produs prod) {
 	}
 	else {
 		NodLD* temp = prim;
-		while (temp->next != NULL)
-		{
+		while (temp->next != NULL) {
 			temp = temp->next;
 		}
 		temp->next = nou;
 		nou->prev = temp;
 		*ultim = nou;
 	}
-
 	return prim;
 }
 
@@ -62,27 +60,23 @@ NodLD* inserare_sortata(NodLD* prim, NodLD** ultim, Produs prod) {
 	}
 	else {
 		NodLD* temp = prim;
-		while (temp != NULL && temp->prod.pret < prod.pret)
-		{
+		while (temp != NULL && temp->prod.pret < prod.pret) {
 			temp = temp->next;
 		}
 		if (temp == prim) {
-			//inserez inainte de primul nod
 			nou->next = prim;
 			prim->prev = nou;
 			prim = nou;
 		}
 		else if (temp == NULL) {
-			//inserez la sfarsit
 			(*ultim)->next = nou;
 			nou->prev = *ultim;
 			*ultim = nou;
 		}
 		else {
-			//inserez inainte de temp
 			NodLD* ant = temp->prev;
-			nou->prev = ant;
 			nou->next = temp;
+			nou->prev = ant;
 			ant->next = nou;
 			temp->prev = nou;
 		}
@@ -101,8 +95,7 @@ NodLD* inserare_index(NodLD* prim, NodLD** ultim, Produs prod, int index) {
 
 	NodLD* temp = prim;
 	int i = 0;
-	while (temp != NULL && i < index)
-	{
+	while (temp != NULL && i < index) {
 		temp = temp->next;
 		i++;
 	}
@@ -113,7 +106,7 @@ NodLD* inserare_index(NodLD* prim, NodLD** ultim, Produs prod, int index) {
 	}
 	else if (temp == NULL) {
 		(*ultim)->next = nou;
-		nou->prev = (*ultim);
+		nou->prev = *ultim;
 		*ultim = nou;
 	}
 	else {
@@ -138,15 +131,13 @@ DateProdus* salvare_vector_produse_scumpe(NodLD** prim, NodLD** ultim, DateProdu
 	while (temp != NULL)
 	{
 		if (temp->prod.pret >= 1000.0) {
-			vector = insereaza_produs(vector, nrElem, temp->prod);
 			NodLD* deleteMe = temp;
+			vector = insereaza_produs(vector, nrElem, temp->prod);
 			if (temp == *prim) {
-				//sterg primul nod din lista dubla
 				*prim = (*prim)->next;
 				(*prim)->prev = NULL;
 			}
 			else if (temp == *ultim) {
-				//sterg ultimul nod din lista dubla
 				(*ultim) = (*ultim)->prev;
 				(*ultim)->next = NULL;
 			}

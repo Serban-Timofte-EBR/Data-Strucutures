@@ -1,0 +1,21 @@
+21
+Banca Romana
+232.3
+20
+Banca Unirii
+545.4
+45
+Banca Aviatorilor
+213.3
+44
+Banca Pipera
+3432.3
+55
+Banca Tineretului
+232.3
+50
+Banca Izvor
+1230.3
+66
+Banca Victoriei
+990.3
