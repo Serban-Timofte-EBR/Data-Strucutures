@@ -1,0 +1,7 @@
+Arbore AVL - pt examen: 
+    - Reechilibrarea se face dupa fiecare nod inserat 
+
+Arbori B: 
+    - utilizati in SGBD-uri
+    - utilizati pentru cautari rapide in bazele de date mari
+    - 

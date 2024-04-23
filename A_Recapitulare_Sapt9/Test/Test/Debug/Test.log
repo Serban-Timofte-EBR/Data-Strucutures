@@ -1,0 +1,11 @@
+﻿  main.c
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(53,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(55,14): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(70,8): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(94,9): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(110,25): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(115,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(123,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(139,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+\\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Test\main.c(157,10): warning C4133: '=': incompatible types - from 'NodLS *' to 'NodLS *'
+  Test.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\A_Recapitulare_Sapt9\Test\Debug\Test.exe
