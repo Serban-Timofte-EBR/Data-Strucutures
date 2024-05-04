@@ -4,4 +4,3 @@ Arbore AVL - pt examen:
 Arbori B: 
     - utilizati in SGBD-uri
     - utilizati pentru cautari rapide in bazele de date mari
-    - 

@@ -1,0 +1,11 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(36,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(38,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(54,9): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(56,14): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(65,10): warning C4129: 'C': unrecognized character escape sequence
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(67,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(78,8): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(87,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\A_Seminar\main.c(98,10): warning C4133: 'initializing': incompatible types - from 'nodLL *' to 'nodLL *'
+  A_Seminar.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\4_ListaDeListe\A_Seminar\ARM64\Debug\A_Seminar.exe
