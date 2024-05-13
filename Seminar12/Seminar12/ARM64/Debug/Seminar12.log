@@ -1,0 +1,10 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar12\Seminar12\main.c(197,69): warning C4474: 'printf' : too many arguments passed for format string
+  \\mac\Home\Documents\Codes\Data-Strucutures\Seminar12\Seminar12\main.c(197,69):
+  placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+  
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar12\Seminar12\main.c(211,69): warning C4474: 'printf' : too many arguments passed for format string
+  \\mac\Home\Documents\Codes\Data-Strucutures\Seminar12\Seminar12\main.c(211,69):
+  placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+  
+  Seminar12.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Seminar12\ARM64\Debug\Seminar12.exe

@@ -1,8 +1,10 @@
 ﻿  main.c
-\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(45,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
-\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(46,21): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
-\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(64,9): warning C4013: 'strlen' undefined; assuming extern returning int
-\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(68,3): warning C4013: 'strcpy' undefined; assuming extern returning int
-\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(91,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
-\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(98,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
-  Seminar8.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\ARM64\Debug\Seminar8.exe
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(45,13): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(46,21): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(67,9): warning C4013: 'strlen' undefined; assuming extern returning int
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(71,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(81,3): warning C4013: 'inserare_tabela_hash' undefined; assuming extern returning int
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(96,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Seminar8\Seminar8\main.c(103,8): warning C4133: '=': incompatible types - from 'NodLD *' to 'NodLD *'
+main.obj : error LNK2019: unresolved external symbol inserare_tabela_hash referenced in function main
+\\Mac\Home\Documents\Codes\Data-Strucutures\Seminar8\ARM64\Debug\Seminar8.exe : fatal error LNK1120: 1 unresolved externals
