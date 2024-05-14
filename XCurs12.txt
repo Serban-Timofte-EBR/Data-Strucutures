@@ -1,0 +1,17 @@
+GRAFURI: 
+    - Complexitate McCabbe: Nr arce - Nr noduri + 2
+    - Graf neconectat: un nod izolat 
+
+- Graf neorientat
+    - Lista de Liste
+        - Lista principala are toate nodurile
+        - Sublistele contin nodurile cu care este conectat nodul principal din lista de liste 
+    - Traversarea in adancime: prin stiva
+    - Traversarea in latime: prin coada 
+
+- Traversarea in adancime:
+    - punem intr-o stiva nodurile vecine si citim cand nu mai avem noduri frunza
+
+- Traversarea in latime:
+    - folosind coada
+    - asemanator cu inordine
