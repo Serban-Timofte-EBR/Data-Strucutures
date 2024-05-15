@@ -1,0 +1,21 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(54,13): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(73,9): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(103,8): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(111,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(121,18): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(138,11): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(153,8): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(165,8): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(174,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(186,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(188,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(205,9): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(207,14): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(233,51): warning C4474: 'printf' : too many arguments passed for format string
+  \\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(233,51):
+  placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(239,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\3_Stiva_Coada\main.c(241,8): warning C4133: '=': incompatible types - from 'nodLL *' to 'nodLL *'
+  3_Stiva_Coada.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\3_Stiva_Coada\ARM64\Debug\3_Stiva_Coada.exe
