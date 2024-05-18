@@ -1,0 +1,11 @@
+10
+21 Lapte 4.5
+66 Lamai 13.99
+8 Paine 2.3
+12 Mere 1.24
+35 Masline 13.15
+74 Placinta 29.80
+90 Pere 11.12
+23 Malai 8.12
+54 Salata 19.18
+1 Paste 12.49
