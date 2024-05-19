@@ -126,7 +126,7 @@ void filtrareHEAP(heap h, int index) {
 
 	if (indexS < h.nrElem && h.vector[indexS].cod > h.vector[indexRad].cod) {
 		indexRad = indexS;
-	} 
+	}
 
 	if (indexD < h.nrElem && h.vector[indexD].cod > h.vector[indexRad].cod) {
 		indexRad = indexD;
@@ -211,11 +211,13 @@ nodArbBin* inserareNod(nodArbBin* rad, produs prod) {
 		if (prod.cod < rad->inf.cod) {
 			rad->stanga = inserareNod(rad->stanga, prod);
 			return rad;
-		}
+		} 
+
 		if (prod.cod > rad->inf.cod) {
 			rad->dreapta = inserareNod(rad->dreapta, prod);
 			return rad;
-		} 
+		}
+
 		else {
 			return rad;
 		}
@@ -262,6 +264,55 @@ float getMediaPreturilor(nodArbBin* rad) {
 	float suma = 0.0;
 	getSumaAndCounter(rad, &counter, &suma);
 	return suma / counter;
+}
+
+nodArbBin* findMin(nodArbBin* rad) {
+	while (rad->stanga != NULL)
+	{
+		rad = rad->stanga;
+	}
+	return rad;
+}
+
+nodArbBin* stergereNod(nodArbBin* rad, int cod) {
+	if (rad == NULL) {
+		return rad;
+	}
+
+	if (cod < rad->inf.cod) {
+		rad->stanga = stergereNod(rad->stanga, cod);
+	}
+
+	else if (cod > rad->inf.cod) {
+		rad->dreapta = stergereNod(rad->dreapta, cod);
+	}
+
+	else {
+		if (rad->stanga == NULL) {
+			nodArbBin* temp = rad->dreapta;
+			free(rad->inf.nume);
+			free(rad);
+			return temp;
+		}
+
+		else if (rad->dreapta == NULL) {
+			nodArbBin* temp = rad->stanga;
+			free(rad->inf.nume);
+			free(rad);
+			return temp;
+		}
+
+		else {
+			nodArbBin* temp = findMin(rad->dreapta);
+			rad->inf.cod = temp->inf.cod;
+			rad->inf.pret = temp->inf.pret;
+			free(rad->inf.nume);
+			rad->inf.nume = (char*)malloc(strlen(temp->inf.nume) + 1);
+			strcpy(rad->inf.nume, temp->inf.nume);
+			rad->dreapta = stergereNod(rad->dreapta, temp->inf.cod);
+		}
+		return rad;
+	}
 }
 
 int main() {
@@ -338,6 +389,11 @@ int main() {
 	// Media preturilor din arbore
 	float media = getMediaPreturilor(rad);
 	printf("\nMedia preturilor din arbore este: %5.2f\n", media);
+
+	int codProdusDeSters = 1;
+	rad = stergereNod(rad, codProdusDeSters);
+	printf("\nArborele dupa stergerea produsului cu codul %d:\n", codProdusDeSters);
+	inordine(rad);
 
 	return 0;
 }

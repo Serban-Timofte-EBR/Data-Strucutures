@@ -20,6 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="conturi.txt" />
+    <Text Include="ConturiABC.txt" />
   </ItemGroup>
 </Project>

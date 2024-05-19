@@ -6,7 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{2E845792-1249-489B-8A57-D5A7D119FB99}|Seminar12_2\\Seminar12_2.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E845792-1249-489B-8A57-D5A7D119FB99}|Seminar12_2\\Seminar12_2.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\conturi.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2E845792-1249-489B-8A57-D5A7D119FB99}|Seminar12_2\\Seminar12_2.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\ConturiABC.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
               "RelativeDocumentMoniker": "Seminar12_2\\main.c",
               "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\main.c",
               "RelativeToolTip": "Seminar12_2\\main.c",
-              "ViewState": "AQIAABkAAABgy8zMzIwjwCIAAAARAAAA",
+              "ViewState": "AQIAAJ8AAAAAnpmZmZkewLQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-13T15:34:12.152Z",
               "IsPinned": true,
@@ -35,12 +35,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "conturi.txt",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\conturi.txt",
-              "RelativeDocumentMoniker": "Seminar12_2\\conturi.txt",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\conturi.txt",
-              "RelativeToolTip": "Seminar12_2\\conturi.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Title": "ConturiABC.txt",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\ConturiABC.txt",
+              "RelativeDocumentMoniker": "Seminar12_2\\ConturiABC.txt",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Seminar12_2\\Seminar12_2\\ConturiABC.txt",
+              "RelativeToolTip": "Seminar12_2\\ConturiABC.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-05-13T15:44:35.797Z",
               "EditorCaption": ""
