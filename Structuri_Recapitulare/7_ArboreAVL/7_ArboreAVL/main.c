@@ -129,7 +129,7 @@ void inserareAVL(Cofetarie c, nodArbAVL** rad) {
 	}
 
 	if (dezechilibru == 2) {
-		if (calculDezechilibru((*rad)->stanga) == 1) {
+		if (calculDezechilibru((*rad)->stanga) == -1) {
 			rotire_stanga(&(*rad)->stanga);
 		}
 		rotire_dreapta(rad);
