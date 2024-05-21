@@ -119,6 +119,66 @@ void dezalocareArbore(NodABC* rad) {
 	}
 }
 
+//dezalocare seminar
+NodABC* dezalocareABC(NodABC* r) {
+	if (r != NULL) {
+		r->st = dezalocareABC(r->st);
+		r->dr = dezalocareABC(r->dr);
+
+		free(r->data.titular);
+		free(r);
+
+		r = NULL;
+	}
+
+	return r;
+}
+
+typedef struct {
+	unsigned short int cheieNod;
+	struct nodStiva* next;
+} nodStiva;
+
+nodStiva* put(nodStiva* cap, int cheie) {
+	nodStiva* nou = (nodStiva*)malloc(sizeof(nodStiva));
+	nou->cheieNod = cheie;
+	nou->next = NULL;
+
+	if (cap == NULL) {
+		cap = nou;
+	}
+	else {
+		nou->next = cap;
+		cap = nou;
+	}
+
+	return cap;
+}
+
+nodStiva* stivaCuNoduri(NodABC* r, unsigned short int cheie, nodStiva* capStiva) {
+	if (r == NULL) {
+		free(capStiva);
+		capStiva = NULL;
+		return capStiva;
+	}
+
+	capStiva = put(capStiva, r->cheie);
+
+	if (r->cheie == cheie) {
+		return capStiva;
+	}
+
+	if (cheie < r->cheie) {
+		capStiva = stivaCuNoduri(r->st, cheie, capStiva);
+		return capStiva;
+	}
+
+	else if (cheie > r->cheie) {
+		capStiva = stivaCuNoduri(r->dr, cheie, capStiva);
+		return capStiva;
+	}
+}
+
 int main()
 {
 	FILE* f = fopen("ConturiABC.txt", "r");
@@ -176,9 +236,25 @@ int main()
 	printf("IBAN: %s \t Moneda: %s \t Sold = %f \t Titular = %s\n",
 		contCautat2.iban, contCautat2.moneda, contCautat2.sold, contCautat2.titular);
 
+	// drumul invers frunza radacina 
+	nodStiva* cap = NULL;
+	cap = stivaCuNoduri(root, 61, cap);
+	//cap = put(cap, 21);
+	printf("\nCerinta seminar: \n");
+	nodStiva* temp = cap;
+	while (temp != NULL)
+	{
+		printf("Cheie: %hu\n", temp->cheieNod);
+		temp = temp->next;
+	}
+
 	// TODO: dezalocare ABC
 
-	dezalocareArbore(root);
+	// varianta din tema
+	//dezalocareArbore(root);
+
+	root = dezalocareABC(root);
+	inordine(root);
 
 	fclose(f);
 	return 0;
