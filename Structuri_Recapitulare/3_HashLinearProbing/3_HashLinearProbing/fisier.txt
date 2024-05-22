@@ -1,0 +1,9 @@
+8
+101 Bere 5.29
+123 Lapte 8.99
+456 Bere 6.3
+102 Oua 10.99
+103 Paine 4.59
+102 OuaDuble 10.99
+104 Iaurt 2.99
+121 Bere 5.49
