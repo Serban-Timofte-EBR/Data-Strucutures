@@ -1,0 +1,32 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(38,36): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(38,16): warning C4133: '=': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(43,37): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(43,17): warning C4133: '=': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(60,16): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(61,16): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(67,15): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(70,15): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(80,29): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(81,29): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(89,8): warning C4133: '=': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(100,9): warning C4018: '<': signed/unsigned mismatch
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(101,32): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(101,15): warning C4133: '=': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(104,14): warning C4018: '>': signed/unsigned mismatch
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(105,33): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(105,16): warning C4133: '=': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(125,32): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(135,33): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(135,16): warning C4133: '=': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(110,15): warning C4133: 'initializing': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(118,15): warning C4133: 'initializing': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(165,27): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(166,27): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(174,23): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(175,23): warning C4133: 'function': incompatible types - from 'nodArbBin *' to 'nodArbBin *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(211,13): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  \\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\Model_5\main.c(211,13):
+  consider using '%hhd' in the format string
+  
+  Model_5.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_5\ARM64\Debug\Model_5.exe

@@ -112,19 +112,19 @@ nodArbBin* stergereNod(nodArbBin* rad, int nrMatricol) {
 	if (nrMatricol < rad->inf.nrMatricol) {
 		rad->stanga = stergereNod(rad->stanga, nrMatricol);
 	}
-	
-	if (nrMatricol > rad->inf.nrMatricol) {
+
+	else if (nrMatricol > rad->inf.nrMatricol) {
 		rad->dreapta = stergereNod(rad->dreapta, nrMatricol);
 	}
 
 	else {
-		// am identificat nodul de sters
 		if (rad->stanga == NULL) {
 			nodArbBin* temp = rad->dreapta;
 			free(rad->inf.nume);
 			free(rad);
 			return temp;
-		} 
+		}
+
 		else if (rad->dreapta == NULL) {
 			nodArbBin* temp = rad->stanga;
 			free(rad->inf.nume);
@@ -132,17 +132,15 @@ nodArbBin* stergereNod(nodArbBin* rad, int nrMatricol) {
 			return temp;
 		}
 
-		//nodul are doi copii
 		nodArbBin* temp = findMin(rad->dreapta);
-		rad->inf.nrMatricol = temp->inf.nrMatricol;
 		rad->inf.medie = temp->inf.medie;
+		rad->inf.nrMatricol = temp->inf.nrMatricol;
 		free(rad->inf.nume);
 		rad->inf.nume = (char*)malloc(strlen(temp->inf.nume) + 1);
 		strcpy(rad->inf.nume, temp->inf.nume);
 
 		rad->dreapta = stergereNod(rad->dreapta, temp->inf.nrMatricol);
 	}
-
 	return rad;
 }
 

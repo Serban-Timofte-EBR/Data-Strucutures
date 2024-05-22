@@ -1,0 +1,7 @@
+6
+21 CSIE 5 2033.43
+45 Microsoft 12 5670.2
+32 Cascade 8 840.50
+44 Google 10 4500
+90 Softbinator 22 3456.49
+109 CSIE 8 4500.5
