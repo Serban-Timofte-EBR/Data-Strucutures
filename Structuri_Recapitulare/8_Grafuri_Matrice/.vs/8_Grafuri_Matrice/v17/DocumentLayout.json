@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18723970-7BC8-4093-88FD-FC56BAD485C1}|8_Grafuri_Matrice\\8_Grafuri_Matrice.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\8_Grafuri_Matrice\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18723970-7BC8-4093-88FD-FC56BAD485C1}|8_Grafuri_Matrice\\8_Grafuri_Matrice.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\8_Grafuri_Matrice\\fisier.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\8_Grafuri_Matrice\\main.c",
+              "RelativeDocumentMoniker": "8_Grafuri_Matrice\\main.c",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\8_Grafuri_Matrice\\main.c",
+              "RelativeToolTip": "8_Grafuri_Matrice\\main.c",
+              "ViewState": "AQIAAD0AAAAANDMzM/MjwEgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-23T07:51:04.89Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fisier.txt",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\8_Grafuri_Matrice\\fisier.txt",
+              "RelativeDocumentMoniker": "8_Grafuri_Matrice\\fisier.txt",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\8_Grafuri_Matrice\\8_Grafuri_Matrice\\fisier.txt",
+              "RelativeToolTip": "8_Grafuri_Matrice\\fisier.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-23T07:57:31.672Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
