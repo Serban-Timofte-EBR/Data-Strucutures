@@ -1,0 +1,11 @@
+10
+21 Star 210 2 Mihai L-M 100.45
+98 Neptun 100 1 Maria L-J 145.21
+45 Poiana 50 3 Gigel V-D 123.99
+33 Alexandrion 1000 2 Alexandru S-D 344.5
+55 Paradis 234 1 Andrei J-V 209.12
+66 Poiana 50 10 Mihai V-D 134.21
+32 Mutenescu 100 20 Mihai V-D 120.21
+90 SedereLaMare 45 2 Octavian J-D 75.5
+87 Ana 100 3 Cosmin L-D 210.35
+61 Poiana 50 3 Adrain M-J 120.25
