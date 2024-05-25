@@ -1,0 +1,7 @@
+6
+21 Alin 234.5
+56 Monica 1092.54
+10 Andrei 456.98
+78 Sebastian 781.21
+32 Nicusor 456.21
+99 Sebastian 219.21
