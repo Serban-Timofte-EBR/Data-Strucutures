@@ -1,0 +1,11 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(50,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(54,15): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(57,15): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(58,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(70,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(84,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(100,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(141,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\Model_8\main.c(195,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+  Model_8.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_8\ARM64\Debug\Model_8.exe
