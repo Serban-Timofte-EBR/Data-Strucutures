@@ -1,0 +1,61 @@
+10
+Structuri De Date
+Andrei Popescu
+2
+9.5
+2
+2005
+Programarea Algoritmilor Genetici
+Ion Ionescu
+2
+8.4
+2
+1004
+Algoritmi si Tehnici de Programare
+Gigel Marinescu
+2
+4.2
+1
+2319
+Programarea Orientata Obiect
+Vlad Vasilescu
+1
+9.9
+2
+2012
+Algreba Liniara
+Gabriel Popescu
+1
+3.4
+1
+2013
+Sisteme de Operare
+Ionescu Popescu
+2
+9.5
+2
+2013
+Baza de date
+Maria Sorescu
+1
+10
+2
+1002
+Statistica Macroeconomica
+Octavian Popescu
+1
+4.4
+2
+3345
+Macroeconomie Cantitativa
+Cosmin Iliescu
+2
+7.5
+2
+2312
+Programare Multiparadigma Java
+Alexandru Nastase
+2
+8.75
+2
+2003

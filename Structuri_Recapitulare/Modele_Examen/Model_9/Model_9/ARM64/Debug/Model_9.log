@@ -1,0 +1,12 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(60,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(62,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(78,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(99,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(127,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(162,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(196,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(214,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(225,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\Model_9\main.c(168,1): warning C4716: 'vectorTabStudProm': must return a value
+  Model_9.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_9\ARM64\Debug\Model_9.exe
