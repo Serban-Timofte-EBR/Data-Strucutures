@@ -1,0 +1,4 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\8_1_Grafuri_Lista_de_Adiacenta_Subiect\8_1_Grafuri_Lista_de_Adiacenta_Subiect\main.c(34,15): warning C4133: '=': incompatible types - from 'nodAdj *' to 'nodADJ *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\8_1_Grafuri_Lista_de_Adiacenta_Subiect\8_1_Grafuri_Lista_de_Adiacenta_Subiect\main.c(82,17): warning C4133: '=': incompatible types - from 'nodADJ *' to 'nodAdj *'
+  8_1_Grafuri_Lista_de_Adiacenta_Subiect.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\8_1_Grafuri_Lista_de_Adiacenta_Subiect\ARM64\Debug\8_1_Grafuri_Lista_de_Adiacenta_Subiect.exe
