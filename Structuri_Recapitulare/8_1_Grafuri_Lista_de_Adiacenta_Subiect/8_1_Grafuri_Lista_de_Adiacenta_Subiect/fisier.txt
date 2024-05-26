@@ -1,9 +1,9 @@
 5
-1 "La Nicusor" "Nehoiu" 33.89 2
-2 "Mega Image" "Bucuresti" 50.0 10
-3 "Lidl" "Brasov" 45.5 8
-4 "Carrefour" "Iasi" 60.0 12
-5 "Auchan" "Cluj" 70.0 15
+1 LaNicusor Nehoiu 33.89 2
+2 MegaImage Bucuresti 50.0 10
+3 Lidl Brasov 45.5 8
+4 Carrefour Iasi 60.0 12
+5 Auchan Cluj 70.0 15
 5
 1 2 10.0
 1 3 20.0
