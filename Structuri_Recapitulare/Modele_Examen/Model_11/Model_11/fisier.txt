@@ -1,0 +1,40 @@
+234
+Dezvoltare Platforma CRM
+10
+4533.29
+125
+Online E Commerce Web App
+20
+2544.55
+876
+Online Web Presentation App
+30
+1950.49
+482
+Dezvoltare Email App
+40
+3556.45
+235
+Mentenanta Platforma CRM
+10
+950.75
+755
+Raport Analiza de Date Vanzari
+50
+556.45
+126
+Creare de online chat
+20
+1125.52
+421
+Aplicatie online restaurant
+60
+2455.55
+985
+Software pentru rezervari
+60
+4222.45
+89
+Software pentru stampilarea electronica a documentelor
+80
+6780.56
