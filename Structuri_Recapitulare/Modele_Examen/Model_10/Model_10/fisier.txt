@@ -1,0 +1,32 @@
+21
+Lumea Cipurilor
+3
+Ionel Popescu
+Radu Georgescu
+Octavian Ionecu
+45.3
+45
+Despre animalele de acasa
+2
+Mihaela Lupu
+Angela Sandica
+34.21
+87
+Economie si Informatica
+1
+Doru Gheorghescu
+121.49
+55
+Mental Health
+2
+Aurelian Dorescu
+Mihaela Branza
+100.45
+66
+Comunitatea noastra
+4
+Mihaela Lupu
+Mihaela Popescu
+Darius Bucuroiu
+Horatiu Moldovan
+145.5
