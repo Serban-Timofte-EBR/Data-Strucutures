@@ -1,0 +1,28 @@
+342
+Fan Curier
+2
+55.75
+212
+Same Day
+5
+325.21
+556
+Express Curier
+1
+25.49
+875
+Fan Curier
+4
+121.15
+755
+DPPD Curier
+3
+1022.49
+100
+VN Curier
+2
+766.49
+899
+Next Day Curier
+9
+4555.24
