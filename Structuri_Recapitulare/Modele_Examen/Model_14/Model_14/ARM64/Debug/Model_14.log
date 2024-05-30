@@ -1,0 +1,17 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(39,18): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(40,13): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(53,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(63,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(75,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(89,10): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(100,15): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(101,15): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(103,9): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(108,9): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(93,12): warning C4133: 'initializing': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(98,12): warning C4133: 'initializing': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(99,12): warning C4133: 'initializing': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(120,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\Model_14\main.c(164,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+  Model_14.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_14\ARM64\Debug\Model_14.exe
