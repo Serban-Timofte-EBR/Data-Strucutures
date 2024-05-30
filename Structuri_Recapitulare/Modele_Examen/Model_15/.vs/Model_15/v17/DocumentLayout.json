@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{874D93B8-9F81-4893-BADF-415A0B56FE6E}|Model_15\\Model_15.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\Model_15\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874D93B8-9F81-4893-BADF-415A0B56FE6E}|Model_15\\Model_15.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\Model_15\\fisier.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\Model_15\\main.c",
+              "RelativeDocumentMoniker": "Model_15\\main.c",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\Model_15\\main.c",
+              "RelativeToolTip": "Model_15\\main.c",
+              "ViewState": "AQIAAPYAAADQZ2ZmZiYwwB0BAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-30T16:13:46.158Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fisier.txt",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\Model_15\\fisier.txt",
+              "RelativeDocumentMoniker": "Model_15\\fisier.txt",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\Modele_Examen\\Model_15\\Model_15\\fisier.txt",
+              "RelativeToolTip": "Model_15\\fisier.txt",
+              "ViewState": "AQIAABQAAACgMzMzM3MvwCcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-30T16:16:12.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
