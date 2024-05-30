@@ -1,0 +1,7 @@
+Octavian Radulescu:
+	Durata: 14.25, Canal: 2, Locatie: Piata Muncii, Status: Activa, Telefon: 0721455762, Client: Octavian Radulescu
+	Durata: 10.45, Canal: 1, Locatie: Stefan Cel Mare, Status: Activa, Telefon: 0733333333, Client: Octavian Radulescu
+Marinela Popescu:
+	Durata:  9.45, Canal: 2, Locatie: Palatul Parlamentului, Status: Activa, Telefon: 0731247451, Client: Marinela Popescu
+Gergerscu Ionel:
+	Durata:  5.50, Canal: 1, Locatie: Piata Victoriei, Status: Activa, Telefon: 0722222222, Client: Gergerscu Ionel
