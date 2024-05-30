@@ -194,6 +194,35 @@ void afisareHeap(heap h) {
 	}
 }
 
+heap stergereVagonDinHeap(heap h, Vagon* out) {
+	if (h.vector != NULL) {
+		(*out).numarVagon = h.vector[0].numarVagon;
+		(*out).nrBileteVandute = h.vector[0].nrBileteVandute;
+		(*out).capacitateVagon = h.vector[0].capacitateVagon;
+		(*out).firma = (char*)malloc(strlen(h.vector[0].firma) + 1);
+		strcpy((*out).firma, h.vector[0].firma);
+
+		Vagon aux = h.vector[0];
+		h.vector[0] = h.vector[h.nrElem - 1];
+		h.nrElem--;
+		free(aux.firma);
+
+		Vagon* vectorNou = (Vagon*)malloc(h.nrElem * sizeof(Vagon));
+		for (int i = 0; i < h.nrElem; i++) {
+			vectorNou[i] = h.vector[i];
+		}
+
+		free(h.vector);
+		h.vector = vectorNou;
+
+		for (int i = (h.nrElem - 1) / 2; i >= 0; i--) {
+			filtrare(h, i);
+		}
+	}
+
+	return h;
+}
+
 int main() {
 	nodLD* prim = NULL;
 	nodLD* ultim = NULL;
@@ -242,6 +271,14 @@ int main() {
 
 	h = modificaNrBileteVandute(h, 21, 1);
 	printf("\nStructura HEAP dupa modficare:\n");
+	afisareHeap(h);
+
+	Vagon out;
+	h = stergereVagonDinHeap(h, &out);
+	printf("\nVagon extras:\n");
+	printf("\tNr: %d, Vandute: %d, Capacitate: %d, Firma: %s\n",
+		out.numarVagon, out.nrBileteVandute, out.capacitateVagon, out.firma);
+	printf("\nStrucutra HEAP dupa stergere:\n");
 	afisareHeap(h);
 
 	return 0;
