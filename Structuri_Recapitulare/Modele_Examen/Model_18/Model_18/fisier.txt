@@ -1,0 +1,35 @@
+11
+IoT Security
+Security
+12
+2
+45
+DevOps Best Practices on Cloud
+Cloud
+35
+3
+9
+React Front End Development
+Web
+75
+5
+98
+Medical AI
+AI
+21
+1
+75
+Introduction to Azure Cloud
+Cloud
+121
+8
+56
+React Native Mobile Dev
+Mobile
+65
+3
+55
+Rest API in Web Dev
+Web
+65
+4
