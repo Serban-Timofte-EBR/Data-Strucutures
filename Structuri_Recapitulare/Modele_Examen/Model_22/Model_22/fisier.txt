@@ -1,0 +1,28 @@
+43
+Gabriel Popescu
+Informatica Economica
+8.5
+99
+Ionela Marinescu
+Informatica Economica
+9.58
+31
+Ionel Ionescu
+Management si Relatii Internationale
+9.9
+76
+Andreea Simonescu
+Limbi Straine
+8.45
+80
+Iuliana Gheorghescu
+Drept 
+8.98
+21
+Octav Mihai
+Administratie Publica
+10.0
+75
+Dragos Dragomir
+Medicina
+7.9
