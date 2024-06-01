@@ -1,0 +1,25 @@
+1234
+Ionescu Gigel
+Simptome de raceala
+23.4
+3
+21
+Marinela Popescu
+Simptome de raceala
+28.7
+5
+321
+Octavian Georgescu
+Varsat de vant
+4.11
+4
+576
+Maria Ionel
+Simptome de raceala
+37.9
+2
+409
+Georgescu Branza
+Fractura de tendon
+55.6
+2
