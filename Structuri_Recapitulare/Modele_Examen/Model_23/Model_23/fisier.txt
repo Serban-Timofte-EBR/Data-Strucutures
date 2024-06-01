@@ -1,0 +1,25 @@
+Apartament cu 2 camere
+2
+Andrei Popescu
+57.89
+201
+Camera cu 1 camera
+2
+Valeria Ionescu
+101.45
+200
+Camera Suit
+1
+Vladimir Gheorghe
+78.49
+354
+Camera dubla premium
+3
+Ionel Pascu
+100.49
+567
+Apartament de lux
+5
+John Deere
+354.59
+999
