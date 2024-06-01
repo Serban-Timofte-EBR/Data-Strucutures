@@ -1,0 +1,55 @@
+11 
+La Nicusor
+Nehoiu
+33.89
+2
+35
+Zamfir Big
+Focsani
+76.25
+10
+54
+Mega Image
+Bucuresti
+25.21
+6
+104
+La Colt
+Bucuresti
+32.3
+4
+34
+La Nea Marin
+Batinesti
+35.5
+5
+76
+Magazinul de Cartier
+Brasov
+15.5
+4
+21
+Kaufland Afi
+Brasov
+104.5
+54
+92
+Iul Shop
+Vulturu
+34.4
+5
+99
+La Oaie
+Fierbinti
+24.8
+3
+12
+Mega Image
+Corbeanca
+45.5
+4
+38
+Iul Shop
+Vulturu
+23.4
+2

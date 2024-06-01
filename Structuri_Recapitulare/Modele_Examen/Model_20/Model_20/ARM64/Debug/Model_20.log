@@ -1,0 +1,19 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(50,9): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(54,19): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(55,14): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(60,15): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(61,16): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(67,15): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(68,15): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(69,15): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(70,16): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(66,12): warning C4133: 'initializing': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(83,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(93,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(107,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(122,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(170,8): warning C4133: '=': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(215,10): warning C4133: 'initializing': incompatible types - from 'nodLD *' to 'nodLD *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\Model_20\main.c(201,1): warning C4715: 'stergereMagazin': not all control paths return a value
+  Model_20.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_20\ARM64\Debug\Model_20.exe
