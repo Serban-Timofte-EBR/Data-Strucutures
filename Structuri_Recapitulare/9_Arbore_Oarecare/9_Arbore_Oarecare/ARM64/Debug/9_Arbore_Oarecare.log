@@ -1,0 +1,6 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\9_Arbore_Oarecare\9_Arbore_Oarecare\main.c(37,28): warning C4133: 'function': incompatible types - from 'nodArbOarecare *' to 'nodArbOarecare *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\9_Arbore_Oarecare\9_Arbore_Oarecare\main.c(38,28): warning C4133: 'function': incompatible types - from 'nodArbOarecare *' to 'nodArbOarecare *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\9_Arbore_Oarecare\9_Arbore_Oarecare\main.c(51,9): warning C4133: '=': incompatible types - from 'nodArbOarecare *' to 'nodArbOarecare *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\9_Arbore_Oarecare\9_Arbore_Oarecare\main.c(53,15): warning C4133: '=': incompatible types - from 'nodArbOarecare *' to 'nodArbOarecare *'
+  9_Arbore_Oarecare.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\9_Arbore_Oarecare\ARM64\Debug\9_Arbore_Oarecare.exe

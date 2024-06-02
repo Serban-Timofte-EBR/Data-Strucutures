@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5AE7285-8FF8-4A4F-BBBC-68F144607E22}|9_Arbore_Oarecare\\9_Arbore_Oarecare.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\9_Arbore_Oarecare\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5AE7285-8FF8-4A4F-BBBC-68F144607E22}|9_Arbore_Oarecare\\9_Arbore_Oarecare.vcxproj|\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\9_Arbore_Oarecare\\fisier.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\9_Arbore_Oarecare\\main.c",
+              "RelativeDocumentMoniker": "9_Arbore_Oarecare\\main.c",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\9_Arbore_Oarecare\\main.c",
+              "RelativeToolTip": "9_Arbore_Oarecare\\main.c",
+              "ViewState": "AQIAAE0AAAAATjMzM7MTwFkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-02T10:14:22.615Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fisier.txt",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\9_Arbore_Oarecare\\fisier.txt",
+              "RelativeDocumentMoniker": "9_Arbore_Oarecare\\fisier.txt",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\Codes\uF028\\Data-Strucutures\\Structuri_Recapitulare\\9_Arbore_Oarecare\\9_Arbore_Oarecare\\fisier.txt",
+              "RelativeToolTip": "9_Arbore_Oarecare\\fisier.txt",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-02T10:16:25.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
