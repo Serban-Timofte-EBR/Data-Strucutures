@@ -1,0 +1,14 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(54,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(56,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(75,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(96,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(126,9): warning C4133: '=': incompatible types - from 'nodLS2 *' to 'nodLS2 *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(128,14): warning C4133: '=': incompatible types - from 'nodLS2 *' to 'nodLS2 *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(146,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(157,8): warning C4133: '=': incompatible types - from 'nodLS2 *' to 'nodLS2 *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(168,8): warning C4133: '=': incompatible types - from 'nodLS2 *' to 'nodLS2 *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(184,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(193,11): warning C4133: 'initializing': incompatible types - from 'nodLS2 *' to 'nodLS2 *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\Model_26\main.c(202,10): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+  Model_26.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_26\ARM64\Debug\Model_26.exe
