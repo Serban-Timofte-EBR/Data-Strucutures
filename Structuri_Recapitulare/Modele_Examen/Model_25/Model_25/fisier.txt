@@ -1,0 +1,40 @@
+431
+21
+Enel Muntenia
+Andrei Popescu
+78.91
+321
+1
+Engie
+Iuliana Gheorghescu
+104.58
+54
+15
+PPC
+Gabriel Popovici
+245.78
+798
+2
+Enel Moldova
+Mihai Branza
+99.99
+877
+9
+PPC
+Ovidiu Norocel
+167.89
+989
+10
+Termoenergetica
+Andrei Popescu
+189.65
+78
+45
+First Energy
+Maria Popescu
+156.78
+65
+31
+Enel Moldova
+Gabriel Moraru
+98.9
