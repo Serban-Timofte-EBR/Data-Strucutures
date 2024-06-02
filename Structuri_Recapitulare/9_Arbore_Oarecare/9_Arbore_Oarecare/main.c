@@ -4,128 +4,87 @@
 #include <string.h>
 
 typedef struct {
-    int id;
-    char* titlu;
-    char* autor;
-    int anPublicare;
-} Carte;
+	int info;
+	struct nod* primulCopil;
+	struct nod* urmatorulFrate;
+} nod;
 
-typedef struct {
-	Carte info;
-	struct nodArbOarecare* copil;
-	struct nodArbOarecare* frate;
-} nodArbOarecare;
-
-nodArbOarecare* creareNod(Carte c) {
-	nodArbOarecare* nodNou = (nodArbOarecare*)malloc(sizeof(nodArbOarecare));
-	nodNou->info.id = c.id;
-	nodNou->info.titlu = (char*)malloc(strlen(c.titlu) + 1);
-	strcpy(nodNou->info.titlu, c.titlu);
-	nodNou->info.autor = (char*)malloc(strlen(c.autor) + 1);
-	strcpy(nodNou->info.autor, c.autor);
-	nodNou->info.anPublicare = c.anPublicare;
-	nodNou->copil = NULL;
-	nodNou->frate = NULL;
-	return nodNou;
+nod* creareNod(int info) {
+	nod* nou = (nod*)malloc(sizeof(nod));
+	nou->info = info;
+	nou->primulCopil = NULL;
+	nou->urmatorulFrate = NULL;
+	return nou;
 }
 
-void afisarePreordine(nodArbOarecare* radacina) {
-	if (radacina != NULL) {
-		printf("ID: %d, Titlu: %s, Autor: %s, An: %d\n",
-			radacina->info.id, radacina->info.titlu,
-			radacina->info.autor, radacina->info.anPublicare);
-		afisarePreordine(radacina->copil);
-		afisarePreordine(radacina->frate);
-	}
-}
-
-void inserareNod(nodArbOarecare** rad, Carte info) {
-	nodArbOarecare* nou = creareNod(info);
-
-	if (*rad == NULL) {
-		*rad = nou;
+void adaugareCopil(nod** parinte, int info) {
+	nod* nou = creareNod(info);
+	if ((*parinte)->primulCopil == NULL) {
+		(*parinte)->primulCopil = nou;
 	}
 	else {
-		nodArbOarecare* temp = *rad;
-		while (temp->frate != NULL) {
-			temp = temp->frate;
-		}
-		temp->frate = nou;
-	}
-}
-
-void inserareSubID(nodArbOarecare** rad, Carte inf, int idPar) {
-	nodArbOarecare* nou = creareNod(inf);
-	if (*rad == NULL) {
-		*rad = nou;
-	}
-	else {
-		nodArbOarecare* temp = *rad;
-		nodArbOarecare* parinte = NULL;
-
-		while (temp != NULL)
+		nod* copilCurent = (*parinte)->primulCopil;
+		while (copilCurent->urmatorulFrate != NULL)
 		{
-			if (temp->info.id == idPar) {
-				parinte = temp;
-				break;
-			}
-
-			if (temp->copil != NULL) {
-				temp = temp->copil;
-			}
-
-			else {
-				temp = temp->frate;
-			}
+			copilCurent = copilCurent->urmatorulFrate;
 		}
-
-		if (parinte != NULL) {
-			if (parinte->copil == NULL) {
-				parinte->copil = nou;
-			}
-			else {
-				nodArbOarecare* copil = parinte->copil;
-				while (copil->frate != NULL)
-				{
-					copil = copil->frate;
-				}
-				copil->frate = nou;
-			}
-		}
+		copilCurent->urmatorulFrate = nou;
 	}
+}
+
+nod* stergereNod(nod* rad, int id) {
+	if (rad == NULL) {
+		return rad;
+	}
+
+	if (rad->info == id) {
+		nod* temp = rad->primulCopil;
+		free(rad);
+		return temp;
+	}
+	else {
+		rad->primulCopil = stergereNod(rad->primulCopil, id);
+		rad->urmatorulFrate = stergereNod(rad->urmatorulFrate, id);
+	}
+
+	return rad;
+}
+
+void dezalocare(nod* radacina) {
+	if (radacina == NULL) {
+		return;
+	}
+	dezalocare(radacina->primulCopil);
+	dezalocare(radacina->urmatorulFrate);
+	free(radacina);
+	radacina = NULL;
+}
+
+void afisareArbore(nod* radacina) {
+	if (radacina == NULL) {
+		return;
+	}
+	printf("%d\n", radacina->info);
+	afisareArbore(radacina->primulCopil);
+	afisareArbore(radacina->urmatorulFrate);
 }
 
 int main() {
-	nodArbOarecare* rad = NULL;
+	nod* radacina = creareNod(1);
 
-	FILE* f = fopen("fisier.txt", "r");
+	adaugareCopil(&radacina, 2);
+	adaugareCopil(&radacina, 3);
+	adaugareCopil(&radacina, 4);
 
-	Carte car;
-	char buffer[128];
+	afisareArbore(radacina);
 
-	while (fscanf(f, "%d", &car.id) == 1)
-	{
-		fscanf(f, " %[^\n]", buffer);
-		car.titlu = (char*)malloc(strlen(buffer) + 1);
-		strcpy(car.titlu, buffer);
+	radacina = stergereNod(radacina, 1);
 
-		fscanf(f, " %[^\n]", buffer);
-		car.autor = (char*)malloc(strlen(buffer) + 1);
-		strcpy(car.autor, buffer);
+	printf("\n");
 
-		fscanf(f, "%d", &car.anPublicare);
+	afisareArbore(radacina);
 
-		/*printf("ID: %d, An: %d, Autor: %s, Titlu: %s\n",
-			car.id, car.anPublicare, car.autor, car.titlu);*/
-		inserareNod(&rad, car);
-
-		free(car.autor);
-		free(car.titlu);
-	}
-	fclose(f);
-
-	printf("Arborele oarecare:\n");
-	afisarePreordine(rad);
+	dezalocare(radacina);
 
 	return 0;
 }
