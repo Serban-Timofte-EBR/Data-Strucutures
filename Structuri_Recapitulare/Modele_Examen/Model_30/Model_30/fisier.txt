@@ -1,0 +1,40 @@
+45
+Andrei Georgescu
+Bulevardul Dobrobanti 45
+78.98
+98
+Maria Popescu
+Calea Victoriei 98
+256.78
+76
+Iuliana Gheorghe
+Piata Universitatii 9
+78.67
+89
+Gabriel Slavescu
+Strada Mihai Sebastian 88
+478.87
+99
+Octavian Ion
+Strada Morii 7 - 8
+67.98
+100
+Marilena Branza
+Strada Paris 98
+245.67
+549
+Nicoleta Panait
+Strada Praga 1
+789.67
+897
+Sergiu Sugele
+Strada Novaci 78
+567.89
+103
+Andrei Iuliescu
+Strada Londra 98
+789.67
+1003
+Florin Chirescu
+Strada Copilului 56
+897.78

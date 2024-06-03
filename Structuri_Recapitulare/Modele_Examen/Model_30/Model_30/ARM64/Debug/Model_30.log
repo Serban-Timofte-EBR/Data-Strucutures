@@ -1,0 +1,7 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_30\Model_30\main.c(39,9): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_30\Model_30\main.c(41,14): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_30\Model_30\main.c(52,8): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_30\Model_30\main.c(69,8): warning C4133: '=': incompatible types - from 'nodCoada *' to 'nodCoada *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_30\Model_30\main.c(68,11): warning C4133: 'initializing': incompatible types - from 'nodCoada *' to 'Comanda *'
+  Model_30.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_30\ARM64\Debug\Model_30.exe
