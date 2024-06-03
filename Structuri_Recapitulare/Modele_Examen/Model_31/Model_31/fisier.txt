@@ -1,0 +1,35 @@
+452
+Praslea cel Voinic
+Bulevardul Aviatorilor 42
+100
+8
+782
+Alba ca Zapada
+Bulevardul Dacia 89
+50
+5
+912
+Ileana Cosanzeana
+Strada Washington 30
+25
+3
+456
+I. L. Caragiale
+Piata Victoriei 87
+50
+10
+679
+Mihai Eminescu
+Bulevardul Lascar Catargiu 78
+5
+60
+98
+Preston Partener Kindergarden
+Bulevardul Iancu de Hunedoara 99
+200
+10
+799
+Ion Creanga
+Mihail Sebastian 88
+500
+20
