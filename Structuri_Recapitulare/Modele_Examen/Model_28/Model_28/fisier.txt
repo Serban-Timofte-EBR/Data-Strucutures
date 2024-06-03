@@ -1,0 +1,50 @@
+45
+10450.54
+Andrei Popescu
+Software Developer
+5700.56
+76
+6775.87
+Maria Gheorghita
+Product Owner
+3456.98
+10
+7689.76
+Sebastian Bodinca
+Software Developer
+9756.21
+98
+15789.56
+Darius Antonescu
+Tehnical Product Manager
+10780.56
+67
+7568.89
+Gabriela Parince
+HR Specialist
+5768.8
+46
+45789.76
+Octavian Radulescu
+Director General
+9876.89
+78
+9876.89
+Narcis Eugen
+Lead Software Engineer
+10567.89
+69
+7659.56
+Alexandra George
+Software Developer
+1200.78
+87
+8967.67
+Iuliana Musca
+DevOPS Engineer
+5632.67
+43
+12456.89
+Teodora Radu
+UI Designer
+7989.78
