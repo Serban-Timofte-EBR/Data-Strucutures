@@ -1,0 +1,10 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(50,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(52,14): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(66,8): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(86,11): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(91,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(98,9): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(167,10): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\Model_34\main.c(243,48): warning C4305: 'function': truncation from 'double' to 'float'
+  Model_34.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_34\ARM64\Debug\Model_34.exe
