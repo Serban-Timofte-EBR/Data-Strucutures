@@ -1,0 +1,5 @@
+﻿  main.c
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_33\Model_33\main.c(34,12): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_33\Model_33\main.c(43,8): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+\\mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_33\Model_33\main.c(53,7): warning C4133: '=': incompatible types - from 'nodStiva *' to 'nodStiva *'
+  Model_33.vcxproj -> \\Mac\Home\Documents\Codes\Data-Strucutures\Structuri_Recapitulare\Modele_Examen\Model_33\ARM64\Debug\Model_33.exe
