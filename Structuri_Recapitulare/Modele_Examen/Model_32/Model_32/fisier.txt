@@ -1,0 +1,30 @@
+45
+E-commerce Emag
+Actualizarea promotiilor in baza de date
+10
+3
+10
+Abysand App
+Testarea functionalitatilor de online payment
+3
+4
+78
+Platforma online.ase
+Incarcarea rapoartelor studentilor
+7
+1
+9
+Website ebr-net.com
+Dezvoltarea interfetelor in Figma
+7
+1
+98
+Facultatea de Informatica Economica
+Verificarea proiectelor studentilor
+20
+2
+67
+Microsoft Romania
+Migrarea bazelor de date ramase pe Azure
+10
+5
