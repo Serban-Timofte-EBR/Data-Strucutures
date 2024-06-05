@@ -1,0 +1,45 @@
+45
+Andrei Popescu
+Informatica Economica
+9.5
+5500
+78
+Gabriel Octavian
+Harvard University
+8.8
+10000
+98
+Radu Radulescu
+Informatica si Programare
+8.7
+3500
+10
+Narcisa Manole
+Informatica Economica
+10
+5500
+66
+Radu Mihail
+Automatica si Calculatoare
+7.5
+5000
+34
+Gabriel Octavian
+Electricitate si Telecomunicatii
+8.8
+5500
+78
+Iuliana Georgescu
+Informatica Economica
+9.95
+6000
+81
+Maria Andone
+Informatica Economica
+8.5
+3500
+34
+Darius Golescu
+Electricitate si Telecomunicatii
+9.5
+6500
